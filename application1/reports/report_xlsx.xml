@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <report 
+            id="report_customer_xlsx"
+            string="Generar Excel"
+            model="res.partner"
+            report_type="xlsx"
+            name="application1.report_customer_xlsx"
+            file="application1.report_customer_xlsx" />
+    </data>
+</odoo>
