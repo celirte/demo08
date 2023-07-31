@@ -7,7 +7,9 @@
     'website': 'www.odoo.com',
     'category': 'Custom Modules/Tech Training',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'reports/report_xlsx.xml'
+    ],
     'demo': [],
     'application': True,
 }
